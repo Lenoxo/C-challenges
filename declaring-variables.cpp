@@ -23,4 +23,10 @@ int main() {
 
   num1 = 34, num2 = 60;
   cout << num1 + num2 << endl;
+
+  // Variables in c++ are also known as identifiers, and you can make them
+  // constants using const, for read-only variables, like in js
+
+  const string greatMessage = "The water makes you wet, and the fire burns you";
+  cout << greatMessage << endl;
 }
