@@ -1,2 +1,3 @@
+- [ ] This is my changes-readme todo.
+- [ ] It is amazing for testing about git rebase.
 - [ ] Test this line as incoming changes
-- [ ] Delete / discard this one, to preserve actual changes in changes-readme
