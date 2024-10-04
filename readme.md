@@ -1,2 +1,0 @@
-- [ ] Test this line as incoming changes
-- [ ] Delete / discard this one, to preserve actual changes in changes-readme
