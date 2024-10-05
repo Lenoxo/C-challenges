@@ -26,5 +26,19 @@ int main() {
   printf("Size of a char: %lu \n", sizeof(ascii));
   printf("Size of a string: %lu \n", sizeof(myFirstString));
 
+  // Type conversion
+
+  int maxScore = 900;
+  int currentScore = 760;
+
+  float percentage = (float)currentScore / maxScore * 100.0;
+
+  printf("The percentage of completion is: %.1f\n", percentage);
+
+  // Constants - Same as JS xD
+  const int MEANINGOFLIFE = 42; // I'll think a better joke later...
+
+  printf("Meaning of life: %i", MEANINGOFLIFE);
+
   return 0;
 }
