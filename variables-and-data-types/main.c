@@ -1,6 +1,26 @@
 #include <stdbool.h>
 #include <stdio.h>
 
+/*
+
+Ask later to AI
+
+Eres un experto en C, y te tengo una pregunta, me puedes explicar de forma
+sencilla para que se usan estos operadores en las variables?:
+
+
+&=x &= 3x = x & 3
+
+|=x |= 3x = x | 3
+
+^=x ^= 3x = x ^ 3
+
+>>=x >>= 3x = x >> 3
+
+<<=x <<= 3x = x << 3
+
+*/
+
 int main() {
   int number1 = 20;
   // It can store up to 6 - 7 decimal digits - Takes up 4 bytes
