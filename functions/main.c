@@ -1,3 +1,4 @@
+#include <math.h>
 #include <stdio.h>
 // Is a good practice to declare all the functions above main
 // And define them below main
@@ -5,22 +6,36 @@
 int sumTwoNums(int x, int y);
 int getLocalSenseOfTheUniverse();
 void greetings(char name[]);
-// The functions scope can be global or local
+// The scope can be global or local
 int globalSenseOfTheUniverse = 42;
 
 int fibonacci(int num);
-int reps = 6;
+
 int main() {
+  // Scope experiments
   printf("Sum result: %i\n", sumTwoNums(33, 44));
   printf("Global sense: %i, Local sense: %i\n", globalSenseOfTheUniverse,
          getLocalSenseOfTheUniverse());
   greetings("Gustavo");
+
+  // Fibonacci
+  int reps = 6;
   printf("%i is the result of using the fibonacci sequence %i times\n",
          fibonacci(reps), reps);
   for (int i = 0; i < reps; i++) {
     printf("%i ", fibonacci(i));
   }
   printf("\n");
+
+  // Math functions, you need math.h header file to use them
+
+  int num1 = 3, num2 = 4;
+
+  printf("Square Root (Raíz cuadrada): %lf\n", sqrt(45.5));
+  printf("Floor a float number: %.0f\n", floor(45.5556));
+  printf("Ceil a float number: %.0f\n", ceil(45.5556));
+  printf("Power of x, by y times: %.1f\n", pow(num1, num2));
+
   return 0;
 }
 
@@ -46,3 +61,5 @@ int fibonacci(int num) {
 
   return fibonacci(num - 1) + fibonacci(num - 2);
 }
+
+// These methods are also in JavaScript xD
