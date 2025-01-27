@@ -34,3 +34,6 @@ bin
 
 # Test of reading / writing files
 test.txt
+
+# VSCode files
+.vscode
